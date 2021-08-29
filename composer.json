@@ -1,0 +1,24 @@
+{
+    "name": "khalfan/contact",
+    "description": "This will send email to admin and save contact in db",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khalfan Alamri",
+            "email": "khalfan.amri@thawani.om"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Khalfan\\Contact\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Khalfan\\Contact\\": "package/contact/src/"
+        }
+    }
+}
